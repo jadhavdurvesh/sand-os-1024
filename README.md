@@ -29,6 +29,10 @@ Names are provisional and not claims of trademark uniqueness.
 
 A 1024-bit scalar does not imply 1024-bit pointers, virtual addresses, physical addresses, or installed RAM. These are separate design parameters.
 
+## SAND Universal Architecture Foundation
+
+All architectures in the SAND family follow the shared [SAND Universal Architecture Foundation (SUAF)](docs/00-sand-universal-architecture-foundation.md). It establishes common engineering principles and terminology while preserving independent instruction sets, register models, memory contracts, execution semantics, and ABIs.
+
 ## Documentation
 
 See [docs](docs/) for the architecture charter, register and numeric model, instruction set, memory and address model, execution, protection, emulator, toolchain, ABI, kernel, capabilities, verification, roadmap, and decisions.
